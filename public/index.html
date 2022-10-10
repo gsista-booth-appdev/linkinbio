@@ -12,25 +12,33 @@
 
   <style>
     .banner-image {
-      width: 128px;
-      height: 128px;
+      width: 250px;
+      height: 250px;
       object-fit: cover;
       border-radius: 128px;
     }
   </style>
 
+  <style>
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 
 <body>
 <div class="banner">
-  <img src="profile-pic.jpg" alt="Gautham Sista headshot">
+  <img src="profile-pic.jpg" alt="Gautham Sista headshot" class="banner-image">
 </div>
 
 <div class="name">
   Gautham Sista
 </div>
 
-<div class="social-icons">
+<div class="thumbnail">
   <a href="https://github.com/gsista-booth" target="_blank">
     GitHub
   </a>
@@ -50,9 +58,16 @@
 
 <div class="link">
   <img
-    src="/thumbnails/ChicagoBooth.svg" alt="Chicago Booth Weekend MBA">
+    src="/thumbnails/ChicagoBooth.svg" alt="Chicago Booth Weekend MBA" class="thumbnail">
 
   <a target="_blank" href="https://www.chicagobooth.edu/mba/part-time/weekend">Chicago Booth Weekend MBA</a>
+</div>
+
+<div class="link">
+  <img
+    src="/thumbnails/T20WorldCup.png" alt="T20 World Cup" class="thumbnail">
+
+  <a target="_blank" href="https://www.t20worldcup.com/fixtures"> Eat, Sleep, Breathe Cricket</a>
 </div>
 
 <div class="link">
@@ -169,11 +184,5 @@
   
 </div>
 
-<div class="link">
-  <img
-    src="/thumbnails/T20WorldCup.png" alt="T20 World Cup">
-
-  <a target="_blank" href="https://www.t20worldcup.com/fixtures"> Eat, Sleep, Breathe Cricket</a>
-</div>
 </body>
 </html>
